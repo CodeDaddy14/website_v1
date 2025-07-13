@@ -226,41 +226,7 @@ const Services: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* CTA Section */}
-        <motion.div 
-          className="text-center"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <div className="bg-gradient-to-r from-blue-600 to-emerald-600 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
-            {/* Background Pattern */}
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute top-0 left-0 w-40 h-40 bg-white rounded-full -translate-x-20 -translate-y-20"></div>
-              <div className="absolute bottom-0 right-0 w-32 h-32 bg-white rounded-full translate-x-16 translate-y-16"></div>
-              <div className="absolute top-1/2 left-1/2 w-24 h-24 bg-white rounded-full -translate-x-12 -translate-y-12"></div>
-            </div>
-            
-            <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Project?</h3>
-              <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
-                Let's discuss how we can bring your vision to life with our comprehensive digital solutions.
-              </p>
-              <motion.button 
-                onClick={() => handleNavClick('#contact')}
-                className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-full hover:shadow-2xl hover:shadow-white/25 transform hover:-translate-y-1 transition-all duration-300"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Get Started Today
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </motion.button>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* Start Your Project Section */}
+        {/* Ready to Transform Your Business Section */}
         <motion.div 
           className="text-center mt-16"
           initial={{ opacity: 0, y: 30 }}
