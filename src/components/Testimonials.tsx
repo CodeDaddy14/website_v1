@@ -6,44 +6,44 @@ const Testimonials: React.FC = () => {
 
   const testimonials = [
     {
-      name: "Sarah Chen",
-      role: "CEO, TechStart Inc.",
-      company: "TechStart Inc.",
-      content: "Working with this team was an absolute game-changer for our startup. Their AI-powered analytics dashboard not only looks stunning but has increased our operational efficiency by 40%. The attention to detail and technical expertise is unmatched.",
+      name: "Rajesh Kumar",
+      role: "Founder & CEO",
+      company: "TechVenture Solutions, Mumbai",
+      content: "Aurifie transformed our e-commerce platform completely! Their team understood our Indian market needs perfectly. The new design increased our conversion rate by 45% and our Flipkart sales doubled within 3 months. Exceptional work!",
       rating: 5,
-      image: "https://images.pexels.com/photos/3781538/pexels-photo-3781538.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      name: "Michael Rodriguez",
-      role: "Marketing Director",
-      company: "Creative Agency Pro",
-      content: "The complete rebrand they delivered exceeded all our expectations. From logo design to digital presence, every element perfectly captured our vision. Our client acquisition has increased by 60% since the rebrand launch.",
-      rating: 5,
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
-    },
-    {
-      name: "Emily Johnson",
-      role: "Founder",
-      company: "EcoCommerce Solutions",
-      content: "Their e-commerce platform development transformed our business. The custom CRM integration and seamless user experience have doubled our conversion rates. Professional, reliable, and incredibly talented team.",
+      name: "Priya Sharma",
+      role: "Marketing Head",
+      company: "FashionForward Pvt Ltd, Delhi",
+      content: "The branding work Aurifie did for our fashion startup was incredible! They created a brand identity that resonates perfectly with young Indian consumers. Our Instagram engagement increased by 200% and we're now featured in top fashion magazines.",
       rating: 5,
       image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      name: "David Kim",
+      name: "Arjun Patel",
       role: "CTO",
-      company: "DataFlow Systems",
-      content: "The data pipeline architecture they built for us handles millions of records flawlessly. Their expertise in both data engineering and AI implementation saved us months of development time and delivered outstanding results.",
+      company: "FinTech Innovations, Bangalore",
+      content: "Aurifie's AI/ML solutions helped us build a revolutionary credit scoring system. Their data engineering expertise and understanding of Indian financial markets was outstanding. We processed 10x more loan applications with 99.5% accuracy.",
       rating: 5,
       image: "https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      name: "Lisa Thompson",
-      role: "Product Manager",
-      company: "InnovateLab",
-      content: "Their mobile app design is not just beautiful—it's intuitive and user-friendly. Our app store ratings improved from 3.2 to 4.8 stars after implementing their design. Exceptional work and great communication throughout.",
+      name: "Sneha Reddy",
+      role: "Founder",
+      company: "EcoLiving Solutions, Hyderabad",
+      content: "Working with Aurifie was the best decision for our sustainable products startup. They built our entire digital ecosystem - from website to mobile app to CRM. Our online sales grew from ₹2 lakhs to ₹50 lakhs per month!",
       rating: 5,
       image: "https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      name: "Vikram Singh",
+      role: "Director",
+      company: "Heritage Hotels Group, Rajasthan",
+      content: "Aurifie digitized our traditional hotel business beautifully! They created a booking system that showcases our heritage while being modern and user-friendly. International bookings increased by 300% and guest satisfaction scores hit 4.9/5.",
+      rating: 5,
+      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ];
 

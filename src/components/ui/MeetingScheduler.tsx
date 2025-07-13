@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Calendar, Clock, User, Mail, MessageSquare, Send, CheckCircle } from 'lucide-react';
+import { X, Calendar, Clock, User, Mail, MessageSquare, Send, CheckCircle, Phone } from 'lucide-react';
 import { useNotifications } from '../../hooks/useNotifications';
 import { scheduleMeeting, getUserTimezone, getMinDate, getMaxDate, MeetingRequest } from '../../services/emailService';
 

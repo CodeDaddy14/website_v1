@@ -334,7 +334,7 @@ const InteractiveContact: React.FC = () => {
                     required
                     rows={5}
                     value={formData.message}
-                    onChange={handleInputChange}
+                    className="w-full px-3 md:px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:border-transparent transition-all duration-300 text-sm md:text-base"
                     className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:border-transparent transition-all duration-300"
                     placeholder="Tell us about your project, goals, timeline, and any specific requirements..."
                   />
@@ -420,7 +420,7 @@ const InteractiveContact: React.FC = () => {
                     </motion.div>
                     <div>
                       <div className="font-semibold text-white">{info.title}</div>
-                      <div className="text-slate-300">{info.content}</div>
+                    className="w-full px-3 md:px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:border-transparent transition-all duration-300 text-sm md:text-base"
                     </div>
                   </motion.a>
                 ))}
